@@ -8,8 +8,7 @@ main {
 }
 
 header h1 {
-    color: rgb(83, 63, 63)
-    ;
+    color: rgb(83, 63, 63);
     font-weight: bold;
     font-size: 35pt;
     text-align: center;
@@ -20,9 +19,11 @@ header h1 a {
     text-decoration: none;
     color: rgb(83, 63, 63)
 }
+
 nav {
     background: ivory;
     text-align: center;
+    font-size: 30px;
 }
 
 nav li {
@@ -45,7 +46,7 @@ nav li:hover a {
 }
 
 nav li:hover {
-    color: ivory;
+    color: ivory;   
 }
 
 main h2 {
@@ -55,24 +56,79 @@ main h2 {
     color: rgb(83, 63, 63);
 }
 
+h2 {
+    background-image: url(https://www.alltech.com/sites/default/files/styles/16_9_large/public/2020-02/Degenerative%20Joint%20Disease%20Dog%20Blog_1200%20x%20675.png.jpg?itok=Mu_1zPUg); 
+    background-size: 100%;
+    color: ivory;
+    font-size: 62pt;
+    padding: 100px 0px 470px 0px;
+    text-align: center;
+    width: 0px 100px;
+
+}
+
+section.dog-2 {
+    display:inline-block;
+    margin: 20px;
+    color: rgb(83, 63, 63);
+    padding: 10px;
+}
+
+section.dog-2 img {
+    width: 80%;
+    text-align: center;
+    float: left;
+    padding: 40px;
+}
+
+section.dog-2 ul a {
+    color:rgb(83, 63, 63);
+    text-decoration: none;
+    padding: 0px 20px 0px 0px;
+}
+
+section.dog-2 ul {
+    padding: 0px 20px 0px 20px;
+    margin: 5px 20px 5px 20px;
+    font-size: 25px;
+
+}
+
+section.dog-2:hover ul a {
+    background-color: rgb(83, 63, 63);
+    color: ivory;
+}
+
 section.lower {
     display: inline-block;
     margin: 20px;
     color: rgb(83, 63, 63);
     padding: 10px;
-
 }
 
 section.lower img {
-    width: 100%;
-    text-align: center;
+    width: 80%;
+    float: left;
+    padding: 40px;
 }
 
 section.lower ul a {
     color: rgb(83, 63, 63);
     text-decoration: none;
+    padding: 0px 20px 0px 0px;
 }
 
+section.lower ul {
+    padding: 0px 20px 0px 20px;
+    margin: 5px 20px 5px 20px;
+    font-size: 25px;
+}
+
+section.lower:hover ul a {
+    background-color: rgb(83, 63, 63);
+    color: ivory;
+}
+ 
 section.content {
     width: 90%;
     margin: auto;

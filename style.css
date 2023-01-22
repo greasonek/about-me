@@ -8,7 +8,8 @@ main {
 }
 
 header h1 {
-    color: rgb(83, 63, 63);
+    color: rgb(83, 63, 63)
+    ;
     font-weight: bold;
     font-size: 35pt;
     text-align: center;
@@ -70,10 +71,6 @@ section.lower img {
 section.lower ul a {
     color: rgb(83, 63, 63);
     text-decoration: none;
-}
-
-section.lower p {
-    font-style: italic;
 }
 
 section.content {

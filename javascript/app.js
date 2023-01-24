@@ -1,8 +1,19 @@
 let name = prompt("What is your name?");
 alert("Welcome Back! " + name );
 
-let amountOfDogs = prompt("How many dogs do you want to adopt");
-alert("Wow! Thanks for adopting " + amountOfDogs + " dogs!"); 
+function adoptDogs() {
+    let amountOfDogs = prompt("How many dogs do you want to adopt");
+    amountOfDogs = Number(amountOfDogs);
+    if (amountOfDogs < 3) {
+        let adoptDogs = prompt ("C'mon you can adopt more than that!");
+        if (adoptDogs >= 3) {
+        document.write("Wow! Thanks for adopting " + adoptDogs + "dogs!")
+    }
+    } else {
+        let message= "Wow! Thanks for adopting " + amountOfDogs + "dogs!";
+        document.write(message);
+    }
+}
 
 let dogSex = prompt("Are you looking for a male or female dog?");
 if (dogSex==="male") {

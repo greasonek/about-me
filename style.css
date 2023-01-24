@@ -59,12 +59,12 @@ main h2 {
 h2 {
     background-image: url(https://www.alltech.com/sites/default/files/styles/16_9_large/public/2020-02/Degenerative%20Joint%20Disease%20Dog%20Blog_1200%20x%20675.png.jpg?itok=Mu_1zPUg); 
     background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: beige;
     color: ivory;
     font-size: 62pt;
-    padding: 100px 0px 470px 0px;
+    padding: 200px 0px 270px 0px;
     text-align: center;
-    width: 0px 100px;
-
 }
 
 section.dog-2 {
